@@ -8,12 +8,12 @@ function App() {
   const reset = () => setCount(0);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
+    <div className="flex flex-col md:flex-row bg-primary px-5 bg-gray-900 text-white">
       <h1 className="text-4xl font-bold mb-6">Counter App</h1>
 
       <div className="text-4xl md:text-6xl font-extrabold mb-6">{count}</div>
 
-<div className="flex flex-col md:flex-row gap-4">
+  <div className="flex flex-col md:flex-row gap-4">
   <button className="px-6 py-2 bg-green-500 hover:bg-green-600 rounded-lg text-lg shadow-lg">
     Increment
   </button>
